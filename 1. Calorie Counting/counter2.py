@@ -4,9 +4,8 @@ path = os.getcwd()
 filePath = path + "/input"
 f = open(filePath, "r")
 
-maxCalories = 0
 currentCalories = 0
-maxCaloriesArr = []
+totalCaloriesArr = []
 
 def countLine(line):
     global maxCalories
@@ -15,9 +14,7 @@ def countLine(line):
         number = int(line)
         currentCalories += number
     except:
-        if currentCalories > maxCalories:
-            maxCalories = currentCalories
-            maxCaloriesArr.append(maxCalories)
+        totalCaloriesArr.append(currentCalories)
         currentCalories = 0
 
 with open(filePath, 'rb') as f:
@@ -27,5 +24,5 @@ with open(filePath, 'rb') as f:
             break
         countLine(line)
 
-print(sum(maxCaloriesArr[-3:]))
-# print(maxCalories)
+totalCaloriesArr.sort()
+print(sum(totalCaloriesArr[-3:]))
