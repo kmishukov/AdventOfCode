@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5481C24C-6A3B-4FE9-91EF-FBA48A3E4EC7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C8221C7-439C-4425-BAF7-AB80DBD5182A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacons/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "readInput()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "0C8221C7-439C-4425-BAF7-AB80DBD5182A - a85593b2b7f836e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacons.readInput() -&gt; ()"
+                  moduleName = "Beacons"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kmishukov/Development/AdventOfCode/15.%20Beacon%20Exclusion%20Zone/Beacons/Beacons/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "0C8221C7-439C-4425-BAF7-AB80DBD5182A - a85593b2b7f836e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacons.readInput() -&gt; ()"
+                  moduleName = "Beacons"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kmishukov/Development/AdventOfCode/15.%20Beacon%20Exclusion%20Zone/Beacons/Beacons/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "960">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
