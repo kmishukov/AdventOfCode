@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D4C2D6C294AEB5400BD11C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D6B294AEB5400BD11C5 /* main.swift */; };
+		1D4C2D79294AF04700BD11C5 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D78294AF04700BD11C5 /* Input.swift */; };
+		1D4C2D7C294B432D00BD11C5 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D7B294B432D00BD11C5 /* Sensor.swift */; };
+		1D4C2D7E294B43C000BD11C5 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D7D294B43C000BD11C5 /* Beacon.swift */; };
+		1D4C2D80294B43E000BD11C5 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D7F294B43E000BD11C5 /* Coordinate.swift */; };
+		1D4C2D82294B44E300BD11C5 /* DataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D81294B44E300BD11C5 /* DataMapper.swift */; };
+		1D4C2D84294B452300BD11C5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D83294B452300BD11C5 /* Item.swift */; };
+		1D4C2D86294B457C00BD11C5 /* Tunnels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C2D85294B457C00BD11C5 /* Tunnels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +32,13 @@
 /* Begin PBXFileReference section */
 		1D4C2D68294AEB5400BD11C5 /* Beacons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Beacons; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4C2D6B294AEB5400BD11C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		1D4C2D77294AEEDD00BD11C5 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		1D4C2D78294AF04700BD11C5 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		1D4C2D7B294B432D00BD11C5 /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		1D4C2D7D294B43C000BD11C5 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		1D4C2D7F294B43E000BD11C5 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		1D4C2D81294B44E300BD11C5 /* DataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapper.swift; sourceTree = "<group>"; };
+		1D4C2D83294B452300BD11C5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1D4C2D85294B457C00BD11C5 /* Tunnels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tunnels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +71,24 @@
 		1D4C2D6A294AEB5400BD11C5 /* Beacons */ = {
 			isa = PBXGroup;
 			children = (
-				1D4C2D77294AEEDD00BD11C5 /* input.txt */,
 				1D4C2D6B294AEB5400BD11C5 /* main.swift */,
+				1D4C2D7A294B432500BD11C5 /* Models */,
+				1D4C2D78294AF04700BD11C5 /* Input.swift */,
+				1D4C2D81294B44E300BD11C5 /* DataMapper.swift */,
 			);
 			path = Beacons;
+			sourceTree = "<group>";
+		};
+		1D4C2D7A294B432500BD11C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C2D83294B452300BD11C5 /* Item.swift */,
+				1D4C2D7B294B432D00BD11C5 /* Sensor.swift */,
+				1D4C2D7D294B43C000BD11C5 /* Beacon.swift */,
+				1D4C2D7F294B43E000BD11C5 /* Coordinate.swift */,
+				1D4C2D85294B457C00BD11C5 /* Tunnels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4C2D79294AF04700BD11C5 /* Input.swift in Sources */,
+				1D4C2D86294B457C00BD11C5 /* Tunnels.swift in Sources */,
+				1D4C2D7C294B432D00BD11C5 /* Sensor.swift in Sources */,
 				1D4C2D6C294AEB5400BD11C5 /* main.swift in Sources */,
+				1D4C2D7E294B43C000BD11C5 /* Beacon.swift in Sources */,
+				1D4C2D84294B452300BD11C5 /* Item.swift in Sources */,
+				1D4C2D82294B44E300BD11C5 /* DataMapper.swift in Sources */,
+				1D4C2D80294B43E000BD11C5 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

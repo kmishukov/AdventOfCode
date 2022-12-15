@@ -7,45 +7,13 @@
 
 import Foundation
 
-class Tunnels {
-
-}
-
 func main() {
-    readInput()
-}
-
-func readInput() {
-    let home = FileManager.default.homeDirectoryForCurrentUser
-    let fileUrl = home
-        .appendingPathComponent("input")
-
-    guard let path = Bundle.main.path(forResource: "input", ofType:"txt") else { return }
-
-    guard FileManager.default.fileExists(atPath: path) else {
-        preconditionFailure("file expected at \(fileUrl.absoluteString) is missing")
-    }
-    guard let filePointer:UnsafeMutablePointer<FILE> = fopen(path,"r") else {
-        preconditionFailure("Could not open file at \(fileUrl.absoluteString)")
-    }
-    var lineByteArrayPointer: UnsafeMutablePointer<CChar>? = nil
-    defer {
-        fclose(filePointer)
-        lineByteArrayPointer?.deallocate()
-    }
-
-    var lineCap: Int = 0
-    var bytesRead = getline(&lineByteArrayPointer, &lineCap, filePointer)
-
-    while (bytesRead > 0) {
-        let lineAsString = String.init(cString:lineByteArrayPointer!)
-          proceedLine(line: lineAsString)
-        bytesRead = getline(&lineByteArrayPointer, &lineCap, filePointer)
-    }
-}
-
-private func proceedLine(line: String) {
-    print(line)
+    let sensors = Input.text.components(separatedBy: "\n").compactMap { DataMapper.mapSensor(line:$0) }
+    let tunnel = Tunnels(sensors: sensors, targetRow: 2000000)
+    let twoMilRowCoverage = tunnel.targetRowCoverage()
+    print("Part 1: \(twoMilRowCoverage)")
+    let freq = tunnel.findTuningFrequency()
+    print("Part 2: \(freq)")
 }
 
 main()
