@@ -15,7 +15,7 @@ final class Communicator {
 
     static func detectMessageMarker(signal: String) -> Int {
         let messageMarkerLength = 14
-        return detectMarker(signal: signal, startIndex: packetMarkerLength)
+        return detectMarker(signal: signal, startIndex: messageMarkerLength)
     }
 
     private static func detectMarker(signal: String, startIndex: Int) -> Int {
