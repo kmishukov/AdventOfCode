@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D90744B2951B36600FEF782 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D90744A2951B36600FEF782 /* main.swift */; };
+		1D9074532951B56D00FEF782 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9074522951B56D00FEF782 /* Input.swift */; };
+		1D9074552951B59600FEF782 /* DataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9074542951B59600FEF782 /* DataMapper.swift */; };
+		1D9074582951B65800FEF782 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9074572951B65800FEF782 /* Motion.swift */; };
+		1D90745A2951B7F100FEF782 /* MotionDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9074592951B7F100FEF782 /* MotionDirection.swift */; };
+		1D90745C2951B84400FEF782 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D90745B2951B84400FEF782 /* Grid.swift */; };
+		1D90745E2951BA7C00FEF782 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D90745D2951BA7C00FEF782 /* Coordinate.swift */; };
+		1D9074602951C35800FEF782 /* Knot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D90745F2951C35800FEF782 /* Knot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D9074452951B36600FEF782 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D9074472951B36600FEF782 /* RopeBridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RopeBridge; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D90744A2951B36600FEF782 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1D9074522951B56D00FEF782 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		1D9074542951B59600FEF782 /* DataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapper.swift; sourceTree = "<group>"; };
+		1D9074572951B65800FEF782 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		1D9074592951B7F100FEF782 /* MotionDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDirection.swift; sourceTree = "<group>"; };
+		1D90745B2951B84400FEF782 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		1D90745D2951BA7C00FEF782 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		1D90745F2951C35800FEF782 /* Knot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9074442951B36600FEF782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D90743E2951B36600FEF782 = {
+			isa = PBXGroup;
+			children = (
+				1D9074492951B36600FEF782 /* RopeBridge */,
+				1D9074482951B36600FEF782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9074482951B36600FEF782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9074472951B36600FEF782 /* RopeBridge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9074492951B36600FEF782 /* RopeBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1D9074562951B62A00FEF782 /* Models */,
+				1D9074512951B56700FEF782 /* Input */,
+				1D90744A2951B36600FEF782 /* main.swift */,
+			);
+			path = RopeBridge;
+			sourceTree = "<group>";
+		};
+		1D9074512951B56700FEF782 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				1D9074522951B56D00FEF782 /* Input.swift */,
+				1D9074542951B59600FEF782 /* DataMapper.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		1D9074562951B62A00FEF782 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D90745B2951B84400FEF782 /* Grid.swift */,
+				1D9074572951B65800FEF782 /* Motion.swift */,
+				1D9074592951B7F100FEF782 /* MotionDirection.swift */,
+				1D90745D2951BA7C00FEF782 /* Coordinate.swift */,
+				1D90745F2951C35800FEF782 /* Knot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9074462951B36600FEF782 /* RopeBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D90744E2951B36600FEF782 /* Build configuration list for PBXNativeTarget "RopeBridge" */;
+			buildPhases = (
+				1D9074432951B36600FEF782 /* Sources */,
+				1D9074442951B36600FEF782 /* Frameworks */,
+				1D9074452951B36600FEF782 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RopeBridge;
+			productName = RopeBridge;
+			productReference = 1D9074472951B36600FEF782 /* RopeBridge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D90743F2951B36600FEF782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1D9074462951B36600FEF782 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D9074422951B36600FEF782 /* Build configuration list for PBXProject "RopeBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D90743E2951B36600FEF782;
+			productRefGroup = 1D9074482951B36600FEF782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9074462951B36600FEF782 /* RopeBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9074432951B36600FEF782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D90745E2951BA7C00FEF782 /* Coordinate.swift in Sources */,
+				1D9074602951C35800FEF782 /* Knot.swift in Sources */,
+				1D9074532951B56D00FEF782 /* Input.swift in Sources */,
+				1D9074552951B59600FEF782 /* DataMapper.swift in Sources */,
+				1D9074582951B65800FEF782 /* Motion.swift in Sources */,
+				1D90745A2951B7F100FEF782 /* MotionDirection.swift in Sources */,
+				1D90744B2951B36600FEF782 /* main.swift in Sources */,
+				1D90745C2951B84400FEF782 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D90744C2951B36600FEF782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D90744D2951B36600FEF782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1D90744F2951B36600FEF782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N9MQ3U2TY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D9074502951B36600FEF782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N9MQ3U2TY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9074422951B36600FEF782 /* Build configuration list for PBXProject "RopeBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D90744C2951B36600FEF782 /* Debug */,
+				1D90744D2951B36600FEF782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D90744E2951B36600FEF782 /* Build configuration list for PBXNativeTarget "RopeBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D90744F2951B36600FEF782 /* Debug */,
+				1D9074502951B36600FEF782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D90743F2951B36600FEF782 /* Project object */;
+}
